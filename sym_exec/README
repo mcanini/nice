@@ -1,0 +1,14 @@
+The PySE (Python Symbolic Execution)
+=====================================
+
+nox : contains the the small subset of the NOX library/framework API needed to run apps inside the SE.
+      Some files are taken from the original library and modified as needed
+symbolic : the Python symbolic engine
+examples : unmodified NOX apps known to work
+
+To execute:
+-----------
+sym_exec.py <path-to-noxapp.py>
+
+The -o switch can be used to change the output directory. By default it is $cwd/output.
+

@@ -1,0 +1,9 @@
+This directory contains the configuration files to reproduce the bugs described in the paper.
+
+bug_I.conf -> BUG-I and BUG-II (page 11), covers 7960 total states
+bug_III.conf -> BUG-III (page 12), covers 3519 total states
+bug_IV.conf -> BUG-IV, BUG-VI and BUG-VII (page 12), > 50.000 transitions but VII found after 3774 transitions
+bug-V.conf -> BUG-V (page 12), > 308.000 transitions, bug found with debug sequence: 1, 1, 4, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 0, 2, 4, 3, 3, 0, 0, 4, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 1, 0, 4, 5, 1, 1, 1, 0, 1, 1, 0, 0, 0, 0, 0
+bug-VIII.conf -> BUG-VIII, BUG-IX and BUG-X (page 13)
+bug-XI.conf -> BUG-XI (page 13)
+

@@ -1,0 +1,64 @@
+Licensing information
+---------------------
+
+This is the software distribution of Nice, a NICE way to test OpenFlow controller applications
+
+Nice is covered by the BSD 3-clause license, as follows.
+
+Copyright (c) 2011, EPFL (Ecole Politechnique Federale de Lausanne)
+All rights reserved.
+
+Created by Marco Canini, Daniele Venzano, Dejan Kostic, Jennifer Rexford
+Contributors: Peter Peresini, Maciej Kuzniar
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+  -  Redistributions of source code must retain the above copyright notice,
+     this list of conditions and the following disclaimer.
+  -  Redistributions in binary form must reproduce the above copyright notice,
+     this list of conditions and the following disclaimer in the documentation
+     and/or other materials provided with the distribution.
+  -  Neither the names of the contributors, nor their associated universities or
+     organizations may be used to endorse or promote products derived from this
+     software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY
+EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES
+OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT
+SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL,
+SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO,
+PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS
+INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+
+The NOX API
+-----------
+Parts of NICE (the files under sym_exec/sym_exec_lib and model_checker/nox_lib/)
+re-implement parts of the NOX API. While some code has been copied and pasted,
+most of it has been rewritten and only the method names and parameters have been
+retained.
+NOX is available at: http://noxrepo.org
+NOX is covered by the GPLv3
+
+Sample NOX Apps
+---------------
+The Pyswitch application is taken as-is from the NOX distribution and is covered
+by GPL.
+
+Third-party software distributed with NICE
+------------------------------------------
+
+This distribution package contains also:
+
+- pystp: A Python extension module for STP
+  http://code.google.com/p/pystp/
+  GPLv2 or later
+
+- STP Constraint Solver library
+  Copyright (c) 2008 Vijay Ganesh
+  MIT license (see LICENSE.stp)
+  http://sites.google.com/site/stpfastprover/
+
